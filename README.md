@@ -7,7 +7,7 @@ ie predict current traffic based on the weather in the previous hour.
 
 No strongly performing models (best R2=.28, best MAE = 127).
 Comparisons of top 10 coefficient effects from linear models and feature importances from ensemble models.
-There was agreement for only six features, relating to: season (strong reduction of traffic counts in summer); traffic origin/destination/ (moderate reduction when traffic if from the south);
+There was agreement for only six features, relating to: season (strong reduction of traffic counts in summer); traffic origin/destination/ (moderate reduction when traffic is from the south);
 2nd and 3rd hours of peak traffic (strong increases), time of day (slight reduction in the morning),  and temperature (moderate increase in traffic counts).
 
 Recommendations including using more of the traffic data set (not excluding weekend data), and/or trying to find a dataset covering an entire year. Also, there are certain engineered polynomial features
